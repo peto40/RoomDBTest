@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
         binding.title.text = counter.toString()
 
         Log.d("dsadsad", "asdasdalnsdbuh")
+        Log.d("dsadsad", "asdasdalnsdbuh")
+        Log.d("dsadsad", "asdasdalnsdbuh")
         binding.button.setOnClickListener {
             counter++
 
