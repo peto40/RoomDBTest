@@ -3,6 +3,7 @@ package com.hfad.android.roomdbtest
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 import com.hfad.android.roomdbtest.databinding.ActivityMainBinding
 
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.title.text = counter.toString()
 
+        Log.d("dsadsad", "asdasdalnsdbuh")
         binding.button.setOnClickListener {
             counter++
 
